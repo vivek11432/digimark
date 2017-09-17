@@ -781,7 +781,7 @@ li {
 
 .feature i,
 .feature-3 i {
-    font-size:2.5em;
+    font-size:26px;
     width: 80px;
     height: 80px;
    padding:25px;
@@ -823,7 +823,7 @@ li {
 }
 
 .feature-2 i {
-   font-size:2.5em;
+   font-size: 26px;
     color: #fff;
     width: 70px;
     height: 70px;
@@ -1121,7 +1121,7 @@ and (min-width : 551px){
 /*----------------------------------------------------------*/
 
 .fun-facts {
-    background: url(../images/parallax/bg-02.jpg);
+    background: url(https://lemusydelvalle.com/wp-content/uploads/2016/12/Colorado-Springs-Online-Marketing-Digital-Marketing-Website-Design-Background-60W.jpg);
     background-attachment: fixed;
     background-size: cover;
     padding-top: 120px;
@@ -1581,7 +1581,7 @@ footer.style-1 .footer-link li {
 
 
 .call-to-action {
-    background: url(../images/parallax/call-to.jpg);
+    background: url(https://lh3.googleusercontent.com/-Fm5KXggJVKao3KxckBrJbjGvdaogHR12uU30aagRcVWWSpkhPSIC3yUtWvES3UKis3o9wT4-XpIqbekH8bG=s0);
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 90%;
@@ -1732,7 +1732,7 @@ footer.style-1 .footer-link li {
  opacity:1;
  position:absolute;
  top:-5px;
- background:#ACB2B8;
+ background: black;
  padding:10px 15px;
  color:#FFF;
  border-radius: 0px;
@@ -2002,3 +2002,49 @@ iframe {
 }
 
 
+#contact {
+	/*width: 100wh;*/
+	/*height: 90vh;*/
+	/*color: #fff;*/
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	/*background-size: 400% 400%;*/
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}

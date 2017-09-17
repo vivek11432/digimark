@@ -218,5 +218,3 @@ $('#team a').click(function (e) {
         
         
     });
-	
-

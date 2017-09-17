@@ -13,7 +13,11 @@ jQuery(document).ready(function(){
 			jQuery('#show-panel').addClass('show-panel');
 		}
 	});
-	
+	if(jQuery('#show-panel').hasClass('hide-panel')) {
+		jQuery('.colors-switcher').css({'right': '-100px'});
+		jQuery('#show-panel').removeClass('hide-panel');
+		jQuery('#show-panel').addClass('show-panel');
+	}
 });
 
 function setActiveStyleSheet(title) {
